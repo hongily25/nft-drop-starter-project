@@ -1,6 +1,7 @@
 .App {
   height: 100vh;
-  background-color: rgb(20, 20, 20);
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(17, 56, 35) 0%, rgb(33, 77, 74) 43%, rgba(3,68,82,1) 100%);
   overflow: scroll;
   text-align: center;
   overflow: hidden;
@@ -64,11 +65,17 @@
   animation: gradient-animation 4s ease infinite;
 }
 
+.machine-container {
+  display: flex;
+  align-items: center;
+}
+
 .mint-button {
-  background: -webkit-linear-gradient(left, #4e44ce, #35aee2);
+  background: -webkit-linear-gradient(left, #d4c25a, #99cf35);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
   margin-left: 10px;
+  max-width: 250px;
 }
 
 .footer-container {

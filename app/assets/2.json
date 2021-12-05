@@ -1,0 +1,19 @@
+{
+    "name": "BOBA 2",
+    "symbol": "",
+    "image": "2.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "2.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "Gu5UCUPUFbfo6JXSPLeWNGBi7Gm9GgvxEortybsEJeX7",
+          "share": 100
+        }
+      ]
+    }
+  }
